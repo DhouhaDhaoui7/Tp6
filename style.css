@@ -1,0 +1,128 @@
+/* Mise en forme générale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+/* Navigation */
+nav {
+    background-color: #202345;
+  
+    padding: 15px;
+    position: relative;
+    color:white;
+
+  
+}
+.logo{
+    display: inline-block;
+}
+nav.logo {
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+    color: #e6b800;
+}
+/*liens du nav vertical */
+nav ul {
+      list-style: none;
+      padding:0 ;
+      margin-top:20px ;
+          display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+nav ul li a:hover{
+background-color: #d9534f;
+}
+produits-container{
+    display: inline-block;
+
+}
+
+/* Section accueil */
+header {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+    
+}
+.produits_container{
+display: inline-block;}
+table{
+width: 100%;
+border-radius: collapse;
+background-color: #fff;
+}
+th{
+    background-color: #2d1f94;
+    color: #fff;
+    font-size: 20px;
+    border-right: 1px solid #3a4468;
+}
+
+
+
+
+
+/* Titres */
+.titre {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #2d1f94;
+    font-size: 22px;
+}
+
+/* Boxes produits */
+.cart-produit{
+   background: white;
+   padding: 20px;
+   border-radius: 8px;
+   width: 220px;
+   text-align: center;
+   display: inline-block;
+   margin: 10px;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+
+
+/* Catégories */
+#categories{
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Formulaire */
+form {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    position: relative;
+}
+
+
+
+/* Pied de page */
+footer {
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 250px ;
+}
